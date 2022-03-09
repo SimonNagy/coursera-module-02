@@ -12,6 +12,11 @@ div {
     position: relative;
 }
 
+.row {
+    position: relative;
+    padding: 15px;
+}
+
 .container {
     background-color: aliceblue;
     border: 1px solid black;
@@ -21,20 +26,17 @@ div {
 .title {
     text-align: center;
     padding: 15px;
+    margin-bottom: 20px;
     font-size: 175%;
     text-transform: capitalize;
 }
 
 p {
     color: black;
-    width: 80%;
-    height: fit-content;
-    font-size: medium;
-}
-
-.row {
     width: 100%;
-    padding: 45px;
+    height: fit-content;
+    font-size: small;
+    text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -83,7 +85,7 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-    width: 150px;
+    width: 100px;
     height: fit-content;
     border: 1px solid black;
     margin: 0;
@@ -102,13 +104,4 @@ p {
 
 .title3 {
     background-color: sienna;
-}
-
-.boxcontent {
-    position: absolute;
-    height: fit-content;
-    top: 30px;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
 }
